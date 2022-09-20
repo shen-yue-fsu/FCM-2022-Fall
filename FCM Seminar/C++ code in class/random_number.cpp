@@ -6,7 +6,7 @@ int main(){
     double a = -1.0;
     double b = 1.0;
         
-    std:: default_random_engine generator;
+    std:: default_random_engine generator(time(0));
     std:: uniform_real_distribution <double> distribution(a,b);
     
     // generate a random number x between a and b
