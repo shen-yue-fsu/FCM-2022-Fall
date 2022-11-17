@@ -13,5 +13,7 @@ int main() {
         fout<< norm_r[i]<<"\n";
     }
     
+    fout.close();
+    
     return 0;
 }
